@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Bebas Neue', cursive; */
+}
+.page {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2020/05/11/gradient-wallpaper.jpg');
+}
+.img {
+  border: 2px solid ghostwhite;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container {
+  padding: 10% 5%;
+  border-radius: 14%;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
+  }
+}
+
+.heading {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+.img-holder {
+  padding: 10% 0;
+}
+
+.img {
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  padding: 1%;
+}
+
+.img-info {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#input[type="file"] {
+  display: none;
+}
+
+.label {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-upload {
+  margin: 0 5%;
+  padding: 3% 4%;
+  /* width: 24vw;
+  height: 10vw; */
+  background-color: rgb(190, 22, 22);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin: 0 5%;
+  padding: 3% 4%;
+  /* width: 24vw; */
+  /* height: 10vw; */
+  background-color: rgb(190, 22, 22);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.imgSelectBtn {
+  font-family: 'Bebas Neue', cursive;
+  /* margin-top: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgDeleteBtn {
+  font-family: 'Bebas Neue', cursive;
+  /* margin-top: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
